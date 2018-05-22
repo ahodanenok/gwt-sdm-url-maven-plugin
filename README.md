@@ -9,7 +9,7 @@ Using this plugin `host` could be set to `localhost` or other as needed.
 
 ```
 <plugin>
-  <groupId>ahodanenok.maven.plugins</groupId>
+  <groupId>com.github.ahodanenok.maven.plugins</groupId>
   <artifactId>gwt-sdm-url-maven-plugin</artifactId>
   <version>1.0.0</version>
   <executions>
