@@ -30,9 +30,9 @@ Using this plugin `host` could be set to `localhost` or other as needed.
 
 All configuration parameters are optional, except module.
 Default values:
-* host: localhost
-* port: 9876
-* webappDirectory: ${project.build.directory}/${project.build.finalName}
+* host: `localhost`
+* port: `9876`
+* webappDirectory: `${project.build.directory}/${project.build.finalName}`
 
 Supported versions:
 * Maven: 3+
