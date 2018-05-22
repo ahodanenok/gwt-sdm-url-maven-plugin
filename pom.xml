@@ -12,8 +12,7 @@
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Plugin for changing GWT SDM URL</description>
 
-    <!-- todo: url-->
-    <!--<url> </url>-->
+    <url>https://github.com/ahodanenok/gwt-sdm-url-maven-plugin</url>
 
     <!-- todo: license-->
     <!--<licenses>-->
@@ -23,12 +22,11 @@
         <!--</license>-->
     <!--</licenses>-->
 
-    <!-- todo: scm url -->
-    <!--<scm>-->
-        <!--<connection>scm:git:git://github.com/simpligility/ossrh-demo.git</connection>-->
-        <!--<developerConnection>scm:git:ssh://github.com:simpligility/ossrh-demo.git</developerConnection>-->
-        <!--<url>http://github.com/simpligility/ossrh-demo/tree/master</url>-->
-    <!--</scm>-->
+    <scm>
+        <connection>scm:git:git://github.com/ahodanenok/gwt-sdm-url-maven-plugin.git</connection>
+        <developerConnection>scm:git:ssh://github.com/ahodanenok/gwt-sdm-url-maven-plugin.git</developerConnection>
+        <url>http://github.com/ahodanenok/gwt-sdm-url-maven-plugin.git/tree/master</url>
+    </scm>
 
     <developers>
         <developer>
