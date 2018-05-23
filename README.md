@@ -2,6 +2,8 @@
 
 This maven plugin allows to change URL, which application uses to locate SDM CodeServer.
 
+### Description
+
 By default `host` is taken from `$wnd.location.hostname` which is ok if application could be launched locally.  
 But if this is not possible and application needed to be deployed in some remote environment,
 it adds some difficulties in using SDM locally, because `host` will no longer be `localhost`.  
@@ -34,6 +36,10 @@ Default values:
 * port: `9876`
 * webappDirectory: `${project.build.directory}/${project.build.finalName}`
 
-Supported versions:
+### Supported versions:
 * Maven: 3+
 * GWT: 2.7+
+
+
+### License
+[MIT] (LICENSE)
